@@ -17,7 +17,7 @@ The brnfck interpreter comes with a lot of different options to choose from, but
 
 ## Arguments
 flag | meaning
-- | -
+--- | ---
 `[-i | --user-input] USER_INPUT` | the input for the program
 `[-u | --upper] UPPER` | the upper bound for the value the cells can hold; default is unbounded
 `[-l | --lower] LOWER` | the lower bound for the value the cells can hold; default is unbounded (negatively)
@@ -33,7 +33,7 @@ Please let me know of any other programs / dialects that I can compare here
 `.[.,]`
 
 language | bytes output
-- | -
+--- | ---
 brnfck | 2
 CompressedFuck | 4
 
@@ -41,7 +41,7 @@ CompressedFuck | 4
 `+[-->-[>>+>-----<<]<--<---]>-.>>>+.>>..+++[.>]<<<<.+++.------.<<-.>>>>+.`
 
 language | bytes output
-- | -
+--- | ---
 brnfck | 40
 CompressedFck | 42
 
@@ -49,7 +49,7 @@ CompressedFck | 42
 `>++++[<++++++++>-]>++++++++[>++++<-]>>++>>>+>>>+<<<<<<<<<<[-[->+<]>[-<+>>>.<<]>>>[[->++++++++[>++++<-]>.<<[->+<]+>[->++++++++++<<+>]>.[-]>]]+<<<[-[->+<]+>[-<+>>>-[->+<]++>[-<->]<<<]<<<<]++++++++++.+++.[-]<]+++++`
 
 language | bytes output
-- | -
+--- | ---
 brnfck | 79
 CompressedFck | 108
 
