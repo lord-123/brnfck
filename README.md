@@ -18,13 +18,13 @@ The brnfck interpreter comes with a lot of different options to choose from, but
 ## Arguments
 flag | meaning
 --- | ---
-`[-i | --user-input] USER_INPUT` | the input for the program
-`[-u | --upper] UPPER` | the upper bound for the value the cells can hold; default is unbounded
-`[-l | --lower] LOWER` | the lower bound for the value the cells can hold; default is unbounded (negatively)
-`[-d | --default] DEFAULT` | the default value that cells hold; `0` by default
-`[-e | --eof] EOF` | the value to use when no more input can be taken
-`[-w | --non-wrapping]` | disables the wrapping of data values in cells
-`[-c | --non-encoded]` | interprets a non-encoded file
+`[-i \| --user-input] USER_INPUT` | the input for the program
+`[-u \| --upper] UPPER` | the upper bound for the value the cells can hold; default is unbounded
+`[-l \| --lower] LOWER` | the lower bound for the value the cells can hold; default is unbounded (negatively)
+`[-d \| --default] DEFAULT` | the default value that cells hold; `0` by default
+`[-e \| --eof] EOF` | the value to use when no more input can be taken
+`[-w \| --non-wrapping]` | disables the wrapping of data values in cells
+`[-c \| --non-encoded]` | interprets a non-encoded file
 
 # Effectiveness
 Please let me know of any other programs / dialects that I can compare here
